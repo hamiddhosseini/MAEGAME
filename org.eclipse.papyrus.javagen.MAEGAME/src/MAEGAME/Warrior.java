@@ -13,7 +13,7 @@ import MAEGAME.Hero;
 public class Warrior extends Hero {
 
 	public Warrior() {
-		super("Goku",35,85);
+		super("Warrior",35,85);
 		// TODO Auto-generated constructor stub
 	}
 };

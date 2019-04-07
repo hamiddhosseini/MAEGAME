@@ -13,7 +13,7 @@ import MAEGAME.Hero;
 public class Assasin extends Hero {
 
 	public Assasin() {
-		super("Altair",50,50);
+		super("Assasin",50,50);
 	}
 		
 };

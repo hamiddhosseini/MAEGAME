@@ -22,7 +22,7 @@ public abstract class Charcs {
 
 	protected int maxhppool;
 
-	/**
+	/**gfgfgfgfgfdfd
 	 * 
 	 */
 	

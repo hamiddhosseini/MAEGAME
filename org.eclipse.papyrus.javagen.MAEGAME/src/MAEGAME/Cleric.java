@@ -15,7 +15,7 @@ import MAEGAME.Hero;
 public class Cleric extends Hero {
 
 	public Cleric() {
-		super("Shaman",-35,50);
+		super("Cleric",-35,50);
 		// TODO Auto-generated constructor stub
 	}
 	
