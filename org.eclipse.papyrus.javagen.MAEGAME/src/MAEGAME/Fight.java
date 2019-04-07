@@ -81,6 +81,7 @@ public class Fight {
 			if(turn==1) {System.out.println("The Heros - ");
 			System.out.println("--------------------------------------");
 			
+<<<<<<< HEAD
 			for (Hero i : this.heros) {System.out.println(i.name + " "+ i.getHppool() );}
 			
 			System.out.println("--------------------------------------");
@@ -89,6 +90,16 @@ public class Fight {
 			System.out.println("--------------------------------------");
 			for (Monster i : this.monsters) {
 				System.out.println(i.name + " "+ i.getHppool() );
+=======
+			for (Hero i : this.heros) {System.out.println(i.name + " "+ i.getHppool() +"/" +i.getMaxhppool());}
+			
+			System.out.println("--------------------------------------");
+			
+			System.out.println("The Monsters - ");
+			System.out.println("--------------------------------------");
+			for (Monster i : this.monsters) {
+				System.out.println(i.name + " "+ i.getHppool()+"/" +i.getMaxhppool());
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 			}
 			System.out.println("--------------------------------------");}
 			

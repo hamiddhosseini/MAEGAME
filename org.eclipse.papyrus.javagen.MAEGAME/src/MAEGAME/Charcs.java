@@ -22,6 +22,7 @@ public abstract class Charcs {
 
 	protected int maxhppool;
 
+<<<<<<< HEAD
 	/**
 	 * 
 	 */
@@ -66,4 +67,45 @@ public abstract class Charcs {
 		return "attackvalue=" + attackvalue + ", hppool=" + hppool + ", maxhppool=" + maxhppool;
 	}
 	
+=======
+	/**gfgfgfgfgfdfd
+	 * 
+	 */
+	
+	// a.attacks(b);
+	// b.isAttackedBy(a);
+	public void Attack(Charcs victim) {	
+		victim.isAttackedBy(this.attackvalue);
+	}
+	
+	public int getHppool() {
+		return hppool;
+	}
+
+	public void setHppool(int hppool) {
+		this.hppool = hppool;
+	}
+
+	public int getAttackvalue() {
+		return attackvalue;
+	}
+
+	public void setAttackvalue(int attackvalue) {
+		this.attackvalue = attackvalue;
+	}
+
+	public int getMaxhppool() {
+		return maxhppool;
+	}
+
+	public void setMaxhppool(int maxhppool) {
+		this.maxhppool = maxhppool;
+	}
+	public void isAttackedBy(int attackv) {
+		//
+		this.hppool = this.hppool - attackv;
+		if(this.hppool<0) {this.setHppool(0);}  // if health less than zero set it to zero
+		if(this.hppool>this.maxhppool) {this.setHppool(this.maxhppool);}
+	}
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 };

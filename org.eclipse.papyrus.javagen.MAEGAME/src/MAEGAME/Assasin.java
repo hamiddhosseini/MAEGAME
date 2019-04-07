@@ -13,6 +13,12 @@ import MAEGAME.Hero;
 public class Assasin extends Hero {
 
 	public Assasin() {
+<<<<<<< HEAD
 		super("Altair",50,50);
 	}
+=======
+		super("Assasin",50,50);
+	}
+		
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 };

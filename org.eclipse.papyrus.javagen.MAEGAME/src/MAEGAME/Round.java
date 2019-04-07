@@ -37,6 +37,7 @@ public class Round {
 		//randomly select hero to attack
 		int ran;
 		while(true) {
+<<<<<<< HEAD
 		ran =  (int) (4*Math.random());
 		if(this.heros[ran].getHppool()>0) {break;}
 		}
@@ -54,6 +55,14 @@ public class Round {
 
 		this.heros[ran].Attack(this.monsters[x-1]);
 		
+=======
+			ran =  (int) (4*Math.random());
+			if(this.heros[ran].getHppool()>0) {break;}
+		}
+		
+		this.heros[ran].chooseVictim(this.monsters,this.heros);
+				
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 	}
 	
 	public void monstersattack() {

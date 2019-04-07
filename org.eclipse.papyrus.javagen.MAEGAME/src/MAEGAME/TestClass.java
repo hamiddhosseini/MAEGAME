@@ -18,7 +18,11 @@ public class TestClass {
 	public static void main(String [] args) {
 		game = new Game();
 		game.startgame();
+<<<<<<< HEAD
 		System.out.println(game.heros);
+=======
+		
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 //		int ran;
 //		int i;
 //		for(i = 0; i<10;i++) {

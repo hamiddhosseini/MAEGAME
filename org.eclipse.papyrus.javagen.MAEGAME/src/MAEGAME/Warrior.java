@@ -13,7 +13,11 @@ import MAEGAME.Hero;
 public class Warrior extends Hero {
 
 	public Warrior() {
+<<<<<<< HEAD
 		super("Goku",35,85);
+=======
+		super("Warrior",35,85);
+>>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
 		// TODO Auto-generated constructor stub
 	}
 };
