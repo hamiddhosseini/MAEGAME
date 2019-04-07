@@ -41,21 +41,8 @@ public class Round {
 			if(this.heros[ran].getHppool()>0) {break;}
 		}
 		
-		
 		this.heros[ran].chooseVictim(this.monsters,this.heros);
-		
-		//user selects which monster to attack
-//		System.out.println("Who will " + this.heros[ran].name + " attack"  );
-//		
-////		for(Monster i:this.monsters) {
-////			System.out.println(i.name + "  -   " + i.getHppool());
-////		}
-//		
-//		Scanner sc = new Scanner(System.in);
-//		int x = sc.nextInt();
-//
-//		this.heros[ran].Attack(this.monsters[x-1]);
-//		
+				
 	}
 	
 	public void monstersattack() {
