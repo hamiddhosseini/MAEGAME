@@ -4,7 +4,6 @@
 
 package MAEGAME;
 
-<<<<<<< HEAD
 import MAEGAME.Charcs;
 
 /************************************************************/
@@ -67,7 +66,7 @@ public class Hero extends Charcs {
 		
 		
 	}
->>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
+
 	
 
 

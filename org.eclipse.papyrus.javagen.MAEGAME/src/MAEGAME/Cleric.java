@@ -4,7 +4,6 @@
 
 package MAEGAME;
 
-<<<<<<< HEAD
 import MAEGAME.Hero;
 
 /************************************************************/
@@ -47,8 +46,7 @@ public class Cleric extends Hero {
 		this.Attack(heros[x-1]);
 		
 		
-		
->>>>>>> branch 'master' of https://github.com/hamiddhosseini/MAEGAME.git
+
 	}
 	
 };
